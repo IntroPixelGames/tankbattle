@@ -1,0 +1,117 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_1
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+Assets/Complete/Scripts/Shell/ShellExplosion.cs
+Assets/Complete/Scripts/Tank/TankHealth.cs
+Assets/Complete/Scripts/Tank/TankMovement.cs
+Assets/Complete/Scripts/Tank/TankShooting.cs
+Assets/Scripts/Camera/CameraControl.cs
+Assets/Scripts/EnemyTank/EnemyAttack.cs
+Assets/Scripts/EnemyTank/EnemyHealth.cs
+Assets/Scripts/EnemyTank/EnemyMovement.cs
+Assets/Scripts/EnemyTank/Enemy_HardAttack.cs
+Assets/Scripts/EnemyTank/Enemy_MedAttack.cs
+Assets/Scripts/Management/GameManager.cs
+Assets/Scripts/Management/GameManager_Hard.cs
+Assets/Scripts/Management/GameManager_Med.cs
+Assets/Scripts/Management/TankManager.cs
+Assets/Scripts/Management/TankManager_Hard.cs
+Assets/Scripts/Management/TankManager_Med.cs
+Assets/Scripts/Managers/OldGameManager.cs
+Assets/Scripts/Managers/OldTankManager.cs
+Assets/Scripts/PlayerTank/PlayerAttack.cs
+Assets/Scripts/PlayerTank/PlayerHealth.cs
+Assets/Scripts/PlayerTank/PlayerMovement.cs
+Assets/Scripts/PowerUps/SpeedPowerUp.cs
+Assets/Scripts/Shell/ShellExplosion.cs
+Assets/Scripts/Tank/TankHealth.cs
+Assets/Scripts/Tank/TankMovement.cs
+Assets/Scripts/Tank/TankShooting.cs
+"Assets/Scripts/UI Scripts/CurrentLevelButton.cs"
+"Assets/Scripts/UI Scripts/InGameControls.cs"
+"Assets/Scripts/UI Scripts/MainMenu_Controls.cs"
+"Assets/Scripts/UI Scripts/PauseMenu.cs"
+"Assets/Scripts/UI Scripts/PlayButton.cs"
+"Assets/Scripts/UI Scripts/QuitButton.cs"
+Assets/Scripts/UI/UIDirectionControl.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

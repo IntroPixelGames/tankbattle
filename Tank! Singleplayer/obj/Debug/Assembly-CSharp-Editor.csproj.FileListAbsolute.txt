@@ -7,7 +7,6 @@ C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\Unit
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.EditorTestsRunner.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.Graphs.dll
-C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.Metro.Extensions.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.Networking.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.OSXStandalone.Extensions.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.TreeEditor.dll
@@ -39,3 +38,9 @@ C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\obj\Debug\Assembly-
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEngine.Advertisements.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEngine.Advertisements.xml
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.iOS.Extensions.dll
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.LinuxStandalone.Extensions.dll
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.WebGL.Extensions.dll
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEngine.xml
