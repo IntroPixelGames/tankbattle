@@ -3,7 +3,7 @@ using System.Collections;
 using EnemyInfo;
 using Shell;
 using UnityEngine.UI;
-using UIInfo;
+using System.Collections.Generic;
 
 namespace PlayerInfo
 {
@@ -23,7 +23,7 @@ namespace PlayerInfo
 		Rigidbody Rigidbody;
 		float MovementInputValue;
 		float TurnInputValue;
-		bool PowerUpActivable = true;
+		PowerUps PowerUp;
 
 		void Awake ()
 		{
@@ -106,46 +106,41 @@ namespace PlayerInfo
 
 		void OnTriggerEnter (Collider collider)
 		{
-			if (collider.CompareTag ("PowerUp") && PowerUpActivable) 
+			List<int> PowerUpsPossible = new List<int> ();
+
+			if (collider.CompareTag("PowerUp") && PowerUp.isActivable_speed) 
 			{
-				StartCoroutine (SpeedPowerUp (PowerUpSpeedBonus, PowerUpDuration, PowerUpCooldown));
-			} 
-			else 
-			{
-				StartCoroutine (PowerUpMessage ("POWERUP ON COOLDOWN", 3f));
+				PowerUpsPossible.Add (1);
 			}
+			if (collider.CompareTag("PowerUp") && PowerUp.isActivable_health) 
+			{
+				PowerUpsPossible.Add (2);
+			}
+			if (collider.CompareTag("PowerUp") && PowerUp.isActivable_damage) 
+			{
+				PowerUpsPossible.Add (3);
+			}
+			if (PowerUpsPossible.Count < 1)
+			{
+				StartCoroutine(PowerUp.PowerUpMessage("ALL POWERUPS ON COOLDOWN", 4));
+			}
+
+			int PowerUpRand = Random.Range (0, PowerUpsPossible.Count);
+
+			switch (PowerUpsPossible [PowerUpRand]) 
+			{
+				case 1:
+					StartCoroutine (PowerUp.PlayerSpeedPowerUp());
+					break;
+				case 2:
+					StartCoroutine (PowerUp.PlayerHealthPowerUp());
+					break;
+				case 3: 
+					StartCoroutine (PowerUp.PlayerDamagePowerUp());
+					break;
+			}
+
+			Debug.Log (PowerUpsPossible);
 		}
-
-		IEnumerator SpeedPowerUp(float bonus, float bonusDuration, float cooldown)
-		{
-			//MessageText = PowerUpMessages.instance.PowerUpMessageText.text;
-
-			StartCoroutine(PowerUpMessage("SPEED POWERUP ACTIVATED! +5 SPEED FOR 5 SECONDS", 5f));
-
-			PowerUpActivable = false;
-
-			Speed += bonus;
-
-			yield return new WaitForSeconds (PowerUpDuration);
-
-			Speed -= bonus;
-
-			StartCoroutine (PowerUpMessage ("SPEED POWERUP FINISH! 10 SECOND COOLDOWN", 3f));
-
-			//StartCoroutine (PowerUpMessage ("POWERUP ON COOLDOWN", 3f));
-
-			yield return new WaitForSeconds (cooldown);
-
-			PowerUpActivable = true;
-		}
-
-		IEnumerator PowerUpMessage (string message, float delay) 
-		{
-			PowerUpMessages.instance.PowerUpMessageText.text = message;
-			PowerUpMessages.instance.PowerUpMessageText.enabled = true;
-			yield return new WaitForSeconds (delay);
-			PowerUpMessages.instance.PowerUpMessageText.enabled = false;
-		}
-
 	}
 }

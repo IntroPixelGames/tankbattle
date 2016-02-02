@@ -35,7 +35,6 @@ C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\Unit
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\obj\Debug\Assembly-CSharp-Editor.pdb
-C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEngine.Advertisements.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEngine.Advertisements.xml
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.iOS.Extensions.dll
@@ -44,3 +43,4 @@ C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\Unit
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
 C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\UnityEngine.xml
+C:\Game Creation\Unity\Tank! Singleplayer\Tank! Singleplayer\Temp\bin\Debug\Assembly-CSharp.pdb

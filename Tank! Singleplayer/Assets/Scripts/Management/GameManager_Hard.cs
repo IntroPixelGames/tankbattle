@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using PlayerInfo;
 using EnemyInfo;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 namespace Management
 {

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using PlayerInfo;
 using EnemyInfo;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 namespace Management
 {
@@ -13,7 +13,7 @@ namespace Management
 		public float StartDelay = 3f;          
 		public float EndDelay = 3f;              
 		public CameraControl CameraControl;     
-		public Text MessageText;                 
+		public Text MessageText;  
 		public GameObject PlayerPrefab;       
 		public GameObject EnemyPrefab;
 		public TankManager[] Tanks;               
@@ -70,7 +70,7 @@ namespace Management
 
 			if (GameWinner != null)
 			{
-				Application.LoadLevel (Application.loadedLevel);
+				Application.LoadLevel (0);
 			}
 			else
 			{
